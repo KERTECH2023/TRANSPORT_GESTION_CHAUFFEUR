@@ -1,0 +1,5 @@
+{
+    "database" : "mongodb+srv://user:gkU9KqbtQOAmodZK@cluster0.n0fr6tp.mongodb.net/APPTRABSPORT",
+    "token_secret" : "token-secret !!"
+    
+}

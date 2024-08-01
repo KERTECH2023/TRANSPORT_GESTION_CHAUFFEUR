@@ -1,0 +1,39 @@
+{
+  "name": "auth-service",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "dev": "nodemon app.js"
+  },
+  "engines": {
+    "node": "20.11.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "firebase": "^9.17.1",
+    "firebase-admin": "^11.5.0",
+    "geolib": "^3.3.4",
+    "http-errors": "~1.6.3",
+    "jsonwebtoken": "^9.0.0",
+    "latest-version": "^7.0.0",
+    "moment-timezone": "^0.5.43",
+    "mongodb-autoincrement": "^1.0.1",
+    "mongoose": "^6.9.0",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "pdfkit": "^0.15.0",
+    "pug": "^3.0.2",
+    "validator": "^13.9.0"
+  }
+}
